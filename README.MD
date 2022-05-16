@@ -17,7 +17,7 @@ Consider the “relevant passage” to be the parent element that contains the p
 ### Implementation Notes
 <ul><li>
 Module must be named scraper.py
-</li><li>
+<ul><li
 Create function named get_citations_needed_count
 </li><li>
 takes in a url string and returns an integer.
@@ -50,14 +50,16 @@ pip install pytest
 
 ## How to use your library (where applicable)
 
-## Tests
+## User Acceptance Tests
 
-• How do you run tests?
-  
-• Any tests of note?
-  none
-
-• Describe any tests that you did not complete, skipped, etc
+The application must:
+<ul><li>
+encrypt a string with a given shift </li><li>
+decrypt a previously encrypted string with the same shift.</li><li>
+encryption should handle upper and lower case letters.</li><li>
+encryption should allow non-alpha characters but ignore them, including white space.</li><li>
+decrypt encrypted version of It was the best of times, it was the worst of times. WITHOUT knowing the shift used.</li><li>
+refer to supplied unit tests.</li></ul>
 
 ## Links
 
