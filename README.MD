@@ -37,8 +37,9 @@ the string should be formatted with each citation listed in the order found.
 
 ## Setup
 
-cat requirements.txt
+pip install requests
 pip install pytest
+cat requirements.txt
 
 **PORT -** Port Number
 
